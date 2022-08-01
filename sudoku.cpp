@@ -196,6 +196,7 @@ void Sudoku::fill_stack(std::vector<std::vector<int>> sudoku)
 					new_sudoku[i][j] = missing[k];
 					sudoku_stack.push(new_sudoku);
 				}
+				break;
 			}
 		}
 		if (break_flag)
