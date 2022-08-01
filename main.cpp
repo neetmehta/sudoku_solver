@@ -1,6 +1,8 @@
-#include "sudoku.h"
 #include<iostream>
 #include<vector>
+
+#include "sudoku.h"
+#include "sudoku.cpp"
 
 int main()
 {
